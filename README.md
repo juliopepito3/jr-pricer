@@ -22,7 +22,7 @@ Le projet couvre toute la chaîne : chargement des données de marché → const
 Nécessite Python ≥ 3.9.
 
 ```bash
-git clone https://github.com/JulesRemlinger/jr-pricer.git
+git clone https://github.com/juliopepito3/jr-pricer.git
 cd jr-pricer
 python -m venv .venv
 source .venv/bin/activate
