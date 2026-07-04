@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "JR_PRICER"
+version = "0.1.0"
+description = "Librairie Python de pricing de dérivés : options equity (Black-Scholes, Heston, vol locale Dupire) et produits de taux (bootstrap de courbes, swaps, caplets, swaptions)"
+authors = [{ name = "Jules Remlinger", email = "jules.remlinger@gmail.com" }]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=2.0",
+    "scipy>=1.13",
+    "pandas>=2.0",
+    "matplotlib>=3.9",
+    "python-dateutil>=2.9",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+data = ["yfinance>=1.0"]
+
+[tool.setuptools.packages.find]
+include = ["JR_PRICER*"]

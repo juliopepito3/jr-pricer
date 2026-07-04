@@ -1,0 +1,33 @@
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Bytecode Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Caches d'outils
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Éditeurs / IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Fichiers locaux (assistants, config perso)
+.claudeignore
+claude.md
+CLAUDE.local.md
